@@ -14,6 +14,9 @@
 		A49FFAB929C0593C00B7596A /* ogrenciDersKayitSistemi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49FFAB729C0593C00B7596A /* ogrenciDersKayitSistemi.xcdatamodeld */; };
 		A49FFABB29C0593D00B7596A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49FFABA29C0593D00B7596A /* Assets.xcassets */; };
 		A49FFABE29C0593D00B7596A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49FFABC29C0593D00B7596A /* LaunchScreen.storyboard */; };
+		A49FFAC629C05D2600B7596A /* YeniOgrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FFAC529C05D2600B7596A /* YeniOgrViewController.swift */; };
+		A49FFAC829C066C200B7596A /* DersDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FFAC729C066C200B7596A /* DersDetayViewController.swift */; };
+		A49FFACA29C0714400B7596A /* OgrDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FFAC929C0714400B7596A /* OgrDetayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		A49FFABA29C0593D00B7596A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49FFABD29C0593D00B7596A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A49FFABF29C0593D00B7596A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49FFAC529C05D2600B7596A /* YeniOgrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeniOgrViewController.swift; sourceTree = "<group>"; };
+		A49FFAC729C066C200B7596A /* DersDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersDetayViewController.swift; sourceTree = "<group>"; };
+		A49FFAC929C0714400B7596A /* OgrDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgrDetayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				A49FFAAE29C0593C00B7596A /* AppDelegate.swift */,
 				A49FFAB029C0593C00B7596A /* SceneDelegate.swift */,
 				A49FFAB229C0593C00B7596A /* ViewController.swift */,
+				A49FFAC529C05D2600B7596A /* YeniOgrViewController.swift */,
+				A49FFAC729C066C200B7596A /* DersDetayViewController.swift */,
+				A49FFAC929C0714400B7596A /* OgrDetayViewController.swift */,
 				A49FFAB429C0593C00B7596A /* Main.storyboard */,
 				A49FFABA29C0593D00B7596A /* Assets.xcassets */,
 				A49FFABC29C0593D00B7596A /* LaunchScreen.storyboard */,
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49FFACA29C0714400B7596A /* OgrDetayViewController.swift in Sources */,
 				A49FFAB329C0593C00B7596A /* ViewController.swift in Sources */,
+				A49FFAC629C05D2600B7596A /* YeniOgrViewController.swift in Sources */,
+				A49FFAC829C066C200B7596A /* DersDetayViewController.swift in Sources */,
 				A49FFAB929C0593C00B7596A /* ogrenciDersKayitSistemi.xcdatamodeld in Sources */,
 				A49FFAAF29C0593C00B7596A /* AppDelegate.swift in Sources */,
 				A49FFAB129C0593C00B7596A /* SceneDelegate.swift in Sources */,
